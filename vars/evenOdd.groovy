@@ -1,4 +1,4 @@
-def call(String buildNumber) {
+def call(String buildNumber = '0') {
     def intBuldnumber = buildNumber as Integer
   if (intBuldnumber % 2 == 0) {
     pipeline {
